@@ -15,6 +15,22 @@
   }
 }
 
+@media only screen and (max-width:900px) {
+  body {
+    font-size: 85%;
+  }
+  #logo h1 {
+    width: 35px;
+    height: 35px;
+  }
+  #logo h2 {
+    font-size: 2em;
+  }
+  col-3 {
+    column-count: 2
+  }
+}
+
 body {
   font-size: 100%;
 }
